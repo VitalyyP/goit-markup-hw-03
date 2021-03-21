@@ -103,6 +103,7 @@ address {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -114,11 +115,16 @@ address {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
   text-align: center;
 }
 
 .hero .page-title {
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
+  width: 696px;
 }
 .page-title {
   /* font-family: "Roboto", sans-serif; */
@@ -176,6 +182,17 @@ address {
   margin-top: 30px;
 }
 
+.team-item {
+  padding-bottom: 30px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item img {
+  margin-bottom: 30px;
+}
+
 .team h3,
 .team p {
   font-size: 16px;
@@ -183,7 +200,8 @@ address {
 }
 
 .team h3 {
-   font-weight: 500;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 .team p {
   font-weight: 400;
@@ -250,19 +268,24 @@ address {
   background-color: #f5f4f4;
 }
 
-.team-item {
-  text-align: center;
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.footer .link {
-  color: rgba(255, 255, 255, 0.6);
+.footer .logo {
+  display: inline-block;
+  padding-bottom: 20px;
 }
 
 .footer .lastpart-logo,
-.footer .address {
+.address-item:first-child {
   color: var(--lite-bg-color);
 }
 
+.address-list .address-item:not(:last-child) {
+  margin-bottom: 8px;
+}
 .filter {
   display: flex;
   justify-content: center;
@@ -291,6 +314,17 @@ address {
   color: var(--lite-bg-color);
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.portfolio-item {
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-item:hover .link {
+  color: inherit;
 }
 
 .portfolio-image {
