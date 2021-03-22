@@ -331,12 +331,6 @@ address {
   color: inherit;
 }
 
-/*  */
-.portfolio-image {
-  margin-bottom: 20px;
-}
-/*  */
-
 .portfolio .title {
   /* margin-left: 24px; */
   margin-bottom: 4px;
@@ -355,4 +349,5 @@ address {
 .portfolio-discription {
   padding-top: 20px;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
