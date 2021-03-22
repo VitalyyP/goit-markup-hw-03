@@ -116,7 +116,7 @@ address {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -141,7 +141,7 @@ address {
 }
 
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -283,6 +283,10 @@ address {
   color: var(--lite-bg-color);
 }
 
+.address-item:not(:first-child) .link{
+  color: #acacb0;
+}
+
 .address-list .address-item:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -327,13 +331,14 @@ address {
   color: inherit;
 }
 
+/*  */
 .portfolio-image {
   margin-bottom: 20px;
 }
-
+/*  */
 
 .portfolio .title {
-  margin-left: 24px;
+  /* margin-left: 24px; */
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -341,8 +346,13 @@ address {
 }
 
 .portfolio p {
-  margin-left: 24px;
+  /* margin-left: 24px; */
   font-size: 16px;
   line-height: 1.88;
 
+}
+
+.portfolio-discription {
+  padding-top: 20px;
+  padding-left: 24px;
 }
